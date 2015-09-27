@@ -52,3 +52,14 @@ node
     - 顶点着色器中内置的变量gl_Position必须赋值，而片段着色器的内置变量gl_FragColor虽然不是必须赋值的
 
 > * 9. 顶点缓存的基础
+    - VBO Vertex Buffer Object
+    - VBO的生成需要使用一维数组
+
+    - 顶点的各种信息保存到数组里
+    - 使用WebGL的方法生成VBO
+    - 使用WebGL的方法将数组中的信息传给VBO
+    - 顶点着色器中的attribute函数和VBO结合
+
+    - 使用WebGL的context的方法生成VBO，当然生成的时候VBO是空的，然后将顶点信息的数组传给它
+
+> * 10. 矩阵计算和外部库
