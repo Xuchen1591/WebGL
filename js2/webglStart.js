@@ -100,6 +100,10 @@ function setMatrixUniforms() {
     gl.uniformMatrix4fv(shaderProgram.mvMatrixUniform, false, mvMatrix);
 }
 
+function degToRad(degrees) {
+    return degrees * Math.PI / 180;
+}
+
 
 var triangleVertexPositionBuffer;
 var triangleVertexColorBuffer;
