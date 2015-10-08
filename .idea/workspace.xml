@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="375">
-              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.30882353" vertical-offset="0" max-vertical-offset="680">
+              <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
               <folding>
                 <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#4;n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -48,14 +48,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webglStart.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webglStart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js2/webglStart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63920456" vertical-offset="1080" max-vertical-offset="3975">
-              <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="4425" max-vertical-offset="6210">
+              <caret line="313" column="51" selection-start-line="313" selection-start-column="51" selection-end-line="313" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -347,18 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="375">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding>
-            <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#4;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1320">
@@ -394,10 +380,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js2/webglStart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63920456" vertical-offset="1080" max-vertical-offset="3975">
-          <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4425" max-vertical-offset="6210">
+          <caret line="313" column="51" selection-start-line="313" selection-start-column="51" selection-end-line="313" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30882353" vertical-offset="0" max-vertical-offset="680">
+          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
           <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <element signature="n#script#3;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#4;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
