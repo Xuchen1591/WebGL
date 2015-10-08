@@ -3,15 +3,31 @@
 <head lang="en">
     <meta charset="UTF-8">
     <script type="text/javascript" src="js2/glMatrix-0.9.5.min.js"></script>
+    <script type="text/javascript" src="js2/webgl-utils.js"></script>
     <script type="text/javascript" src="js2/webglStart.js"></script>
     <script id="shader-fs" type="x-shader/x-fragment">
-      precision mediump float;
+      //for lesson 1
+      /*
 
+      precision mediump float;
       void main(void) {
         gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0);
       }
+
+      */
+
+
+      //for lesson 2
+      precision mediump float;
+      varying vec4 vColor;
+      void main(void) {
+        gl_FragColor = vColor;
+      }
     </script>
     <script id="shader-vs" type="x-shader/x-vertex">
+      //for lesson 1
+      /*
+
       attribute vec3 aVertexPosition;
 
       uniform mat4 uMVMatrix;
@@ -19,6 +35,23 @@
 
       void main(void) {
         gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+      }
+
+      */
+
+
+      //for lesson 2
+      attribute vec3 aVertexPosition;
+      attribute vec4 aVertexColor;
+
+      uniform mat4 uMVMatrix;
+      uniform mat4 uPMatrix;
+
+      varying vec4 vColor;
+
+      void main(void) {
+        gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+        vColor = aVertexColor;
       }
     </script>
     <title>Magina</title>
